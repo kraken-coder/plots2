@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 1.1.3'
 gem "authlogic", "4.4.2"
 gem 'authlogic-oid'
 gem "composite_primary_keys"
@@ -14,21 +14,21 @@ gem 'figaro'
 gem 'friendly_id'
 gem 'gemoji'
 gem 'geocoder'
-gem 'geokit-rails'
+gem 'geokit-rails', '>= 2.3.1'
 gem 'georuby', '2.0'
 gem "google-cloud-storage"
 gem 'grape'
 gem 'grape-entity'
 gem 'grape-swagger', '~> 0.33.0'
 gem 'grape-swagger-entity', '0.3.4'
-gem 'grape-swagger-rails'
-gem 'grape-swagger-ui'
+gem 'grape-swagger-rails', '>= 0.3.1'
+gem 'grape-swagger-ui', '>= 2.2.8'
 gem 'http_accept_language'
 gem "i18n-js", ">= 3.0.0.rc11"
-gem 'impressionist'
+gem 'impressionist', '>= 1.6.1'
 gem 'jbuilder', '~> 2.9'
-gem 'jquery-rails'
-gem 'less-rails', '~> 4.0'
+gem 'jquery-rails', '>= 4.3.5'
+gem 'less-rails', '~> 4.0', '>= 4.0.0'
 gem 'mocha', '~> 1.11'
 gem 'mustermann' , '1.0.3'
 gem 'omniauth', '~> 1.9'
@@ -44,17 +44,17 @@ gem 'rack-cors', :require => 'rack/cors'
 gem "rack-openid"
 gem "rack-test", "1.1.0"
 gem 'rails', '5.2.3'
-gem 'rails-controller-testing'
-gem 'rails-dom-testing'
+gem 'rails-controller-testing', '>= 1.0.4'
+gem 'rails-dom-testing', '>= 2.0.3'
 gem 'rails-i18n', '~> 5.1.3'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'rb-readline'
 gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
 gem "recaptcha", require: "recaptcha/rails"
-gem 'responders', '~> 3.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 gem 'rubocop', '~> 0.79.0', require: false
 gem "ruby-openid", :require => "openid"
-gem 'sanitize'
+gem 'sanitize', '>= 5.1.0'
 gem 'sentry-raven'
 gem 'sidekiq'
 gem 'skylight' # performance tracking via skylight.io
@@ -70,7 +70,7 @@ gem 'lemmatizer', '~> 0.2.2'
 gem 'mailman', require: false
 
 # To convert html to markdown
-gem 'reverse_markdown'
+gem 'reverse_markdown', '>= 1.1.0'
 
 gem 'twitter'
 
@@ -86,7 +86,7 @@ end
 
 gem 'coffee-rails', '~> 5.0.0'
 gem 'execjs' # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'sassc-rails'
+gem 'sassc-rails', '>= 2.1.2'
 gem 'therubyracer'
 gem 'uglifier', '>= 1.0.3'
 gem 'grape-rails-cache'
@@ -96,16 +96,16 @@ group :development do
   gem "letter_opener"
   gem 'listen', '~> 3.2.1'
   gem "nifty-generators"
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 end
 
 group :test, :development do
-  gem 'capybara'
+  gem 'capybara', '>= 3.31.0'
   gem 'ci_reporter_test_unit'
   gem 'simplecov', require: false
   gem 'codecov', require: false
   gem 'jasmine-jquery-rails'
-  gem 'jasmine-rails'
+  gem 'jasmine-rails', '>= 0.15.0'
   gem 'json_expressions'
   gem 'minitest-reporters', '~> 1.4.2'
   gem 'openssl', '~> 2.1.2'
@@ -117,10 +117,10 @@ group :test, :development do
   gem 'rspec'
   gem 'selenium-webdriver', '~> 3.142.7'
   gem 'test-unit'
-  gem 'teaspoon-mocha'
+  gem 'teaspoon-mocha', '>= 2.3.3'
   gem 'timecop'
   gem 'pry-rails'
-  gem 'action-cable-testing'
+  gem 'action-cable-testing', '>= 0.6.0'
 end
 
 group :production do
