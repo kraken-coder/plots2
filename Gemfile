@@ -35,7 +35,7 @@ gem 'omniauth', '~> 1.9'
 gem 'omniauth-facebook', '~> 5.0'
 gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '>= 1.4.0'
 gem "paperclip", "~> 6.1.0"
 gem 'passenger'
 gem "php-serialize", :require => "php_serialize"
