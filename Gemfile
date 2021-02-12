@@ -14,7 +14,7 @@ gem 'figaro'
 gem 'friendly_id'
 gem 'gemoji'
 gem 'geocoder'
-gem 'geokit-rails'
+gem 'geokit-rails', '>= 2.3.1'
 gem 'georuby', '2.0'
 gem "google-cloud-storage"
 gem 'grape'
@@ -43,11 +43,11 @@ gem 'progress_bar'
 gem 'rack-cors', :require => 'rack/cors'
 gem "rack-openid"
 gem "rack-test", "1.1.0"
-gem 'rails', '5.2.3'
+gem 'rails', '6.0.3.5'
 gem 'rails-controller-testing'
 gem 'rails-dom-testing'
 gem 'rails-i18n', '~> 5.1.3'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'rb-readline'
 gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
 gem "recaptcha", require: "recaptcha/rails"
