@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'activerecord-session_store'
+gem 'activerecord-session_store', '>= 2.0.0'
 gem "authlogic", "4.4.2"
 gem 'authlogic-oid'
 gem "composite_primary_keys"
